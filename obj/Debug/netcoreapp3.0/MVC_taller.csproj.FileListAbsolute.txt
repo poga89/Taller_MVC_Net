@@ -68,3 +68,4 @@ D:\Javeriana_Esp_Arq_Soft\Segundo Semestre\Proyecto de Implementacion Centrado A
 D:\Javeriana_Esp_Arq_Soft\Segundo Semestre\Proyecto de Implementacion Centrado Arquitectura\Microsoft Net Core API\MVC_taller\obj\Debug\netcoreapp3.0\MVC_taller.csproj.CopyComplete
 D:\Javeriana_Esp_Arq_Soft\Segundo Semestre\Proyecto de Implementacion Centrado Arquitectura\Microsoft Net Core API\MVC_taller\obj\Debug\netcoreapp3.0\MVC_taller.dll
 D:\Javeriana_Esp_Arq_Soft\Segundo Semestre\Proyecto de Implementacion Centrado Arquitectura\Microsoft Net Core API\MVC_taller\obj\Debug\netcoreapp3.0\MVC_taller.pdb
+D:\Javeriana_Esp_Arq_Soft\Segundo Semestre\Proyecto de Implementacion Centrado Arquitectura\Microsoft Net Core API\MVC_taller\obj\Debug\netcoreapp3.0\Razor\Views\Contacts\Contactenos.cshtml.g.cs
