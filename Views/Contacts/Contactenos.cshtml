@@ -1,0 +1,24 @@
+@model ContactsViewModel
+
+<div class="container">
+<div class="form-group">
+  <form form class="form-horizontal" method="post">
+        <legend class="text-center header">Contactanos</legend>
+    <label for="name">Su Nombre</label>
+    <input id="name" asp-for="name" type="text" placeholder="Nombre" class="form-control"/>
+    <span asp-validation-for="name" class="text-danger"></span>
+
+    <label for="email">Su direccion de correo electronico</label>
+    <input id="email" asp-for="email" type="email" placeholder="Email Address" class="form-control"
+                                       data-val-required="El Correo es Requerido."/>
+    <span asp-validation-for="email" class="text-danger"></span>
+
+    <label for="subject">Asunto</label>
+    
+    <textarea class="form-control" id="asunto" asp-for="asunto" placeholder="Asunto" ></textarea>
+    <button type="submit" class="btn btn-primary btn-lg" asp-area="" asp-controller="Contacts" asp-action="Contactenoss">Enviar</button>
+    <span asp-validation-for="asunto" class="text-danger"></span>
+
+  </form>
+ </div> 
+</div>

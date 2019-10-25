@@ -63,6 +63,10 @@ namespace MVC_taller
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+               
+                endpoints.MapControllerRoute(
+                    name: "Contacts",
+                    pattern: "{controller=Contacts}/{action=Contactenos}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
