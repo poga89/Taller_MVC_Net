@@ -67,6 +67,10 @@ namespace MVC_taller
                 endpoints.MapControllerRoute(
                     name: "Contacts",
                     pattern: "{controller=Contacts}/{action=Contactenos}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    name: "Webapi",
+                    pattern: "{controller=Webapi}/");    
                 endpoints.MapRazorPages();
             });
         }

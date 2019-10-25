@@ -40,7 +40,7 @@ public class ContactsController : Controller
             return View();
         }
 
-        public async Task<IActionResult> Contactenoss(ContactsViewModel contacto, string url = null)
+        public IActionResult Contactenoss(ContactsViewModel contacto, string url = null)
         {
             
             if (ModelState.IsValid)
